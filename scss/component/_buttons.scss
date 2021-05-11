@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-$blue: #51ddfc;
+
 
 .btn {
     margin-top: 15px;
@@ -9,14 +9,14 @@ $blue: #51ddfc;
     color: #fff;
     border: none;
     padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px $blue;
+    text-transform: uppercas;
+    border-radius: 5px;
   }
   
   .default {
-    background-color: #51ddfc;
+    background-color: $blue;
     &:hover {
-      background-color: lighten(#51ddfc, 10%);
+      background-color: lighten($blue, 10%);
     }
   }
   
@@ -28,9 +28,9 @@ $blue: #51ddfc;
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $purple;
     &:hover {
-      background-color: lighten(#927bc1, 10%);
+      background-color: lighten($purple, 10%);
     }
   }
   
